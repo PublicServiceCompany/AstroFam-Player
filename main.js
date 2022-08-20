@@ -58,7 +58,7 @@ function random_bg_color() {
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = black;
+  document.body.style.background = bgColor;
 }
 
 function loadTrack(track_index) {

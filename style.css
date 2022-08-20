@@ -1,5 +1,5 @@
 body {
-  background-color: lightgreen;
+  background-color: black;
 
   /* Smoothly transition the background color */
   transition: background-color .5s;
@@ -25,9 +25,9 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  background-image: ();
+  background-image: url(images/ParabolikPoster.jpg);
   background-size: cover;
-  border-radius: 15%;
+  border-radius: 0%;
 }
 
 .now-playing {

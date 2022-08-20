@@ -24,25 +24,25 @@ let track_list = [
   {
     name: "Cliffs of Doom",
     artist: "Parabolik",
-    image: "/Volumes/ssd1tb/---CODE/AstroFam-Player/images/Parabolik Poster.jpg",
+    image: "images/Parabolik Poster.jpg",
     path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Cliffs of Doom.mp3"
   },
   {
     name: "Invincible",
     artist: "Parabolik",
-    image: "/Volumes/ssd1tb/---CODE/AstroFam-Player/images/Parabolik Poster.jpg",
+    image: "images/Parabolik Poster.jpg",
     path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Invincible.mp3"
   },
   {
     name: "Jaws of the Depths",
     artist: "Parabolik",
-    image: "/Volumes/ssd1tb/---CODE/AstroFam-Player/images/Parabolik Poster.jpg",
+    image: "images/Parabolik Poster.jpg",
     path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Jaws of the Depths.mp3"
   },
   {
     name: "Portals of Uncertainty",
     artist: "Parabolik",
-    image: "/Volumes/ssd1tb/---CODE/AstroFam-Player/images/Parabolik Poster.jpg",
+    image: "images/Parabolik Poster.jpg",
     path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Portals of Uncertainty.mp3"
   },
 ];

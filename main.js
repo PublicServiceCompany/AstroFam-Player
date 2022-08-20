@@ -24,26 +24,50 @@ let track_list = [
   {
     name: "Cliffs of Doom",
     artist: "Parabolik",
-    image: "images/Parabolik Poster.jpg",
-    path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Cliffs of Doom.mp3"
+    image: "images/ParabolikPoster.jpg",
+    path: "audio/Parabolik/Parabolik - Cliffs of Doom.mp3"
   },
   {
     name: "Invincible",
     artist: "Parabolik",
-    image: "images/Parabolik Poster.jpg",
-    path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Invincible.mp3"
+    image: "images/ParabolikPoster.jpg",
+    path: "audio/Parabolik/Parabolik - Invincible.mp3"
   },
   {
     name: "Jaws of the Depths",
     artist: "Parabolik",
-    image: "images/Parabolik Poster.jpg",
-    path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Jaws of the Depths.mp3"
+    image: "images/ParabolikPoster.jpg",
+    path: "audio/Parabolik/Parabolik - Jaws of the Depths.mp3"
   },
   {
     name: "Portals of Uncertainty",
     artist: "Parabolik",
-    image: "images/Parabolik Poster.jpg",
-    path: "/Volumes/ssd1tb/---CODE/AstroFam-Player/audio/Parabolik/Parabolik - Portals of Uncertainty.mp3"
+    image: "images/ParabolikPoster.jpg",
+    path: "audio/Parabolik/Parabolik - Portals of Uncertainty.mp3"
+  },
+  {
+    name: "I Believe In You",
+    artist: "GRD",
+    image: "images/CartoonDystopiaZenAna.jpg",
+    path: "audio/GRD/GRD - I Believe In You 2.mp3"
+  },
+  {
+    name: "In The Beginning",
+    artist: "GRD",
+    image: "images/CartoonDystopiaZenAna.jpg",
+    path: "audio/GRD/GRD - In The Beginning.mp3"
+  },
+  {
+    name: "Molten Yolk",
+    artist: "GRD",
+    image: "images/CartoonDystopiaZenAna.jpg",
+    path: "audio/GRD/GRD - Molten Yolk.mp3"
+  },
+  {
+    name: "Portable and Affordable Accordions",
+    artist: "GRD",
+    image: "images/CartoonDystopiaZenAna.jpg",
+    path: "audio/GRD/GRD - Portable and Affordable Accordions.mp3"
   },
 ];
 

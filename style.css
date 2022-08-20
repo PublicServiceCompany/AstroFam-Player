@@ -1,6 +1,6 @@
 body {
   background-color: black;
-
+  font-family: 'Courier New', Courier, monospace;
   /* Smoothly transition the background color */
   transition: background-color .5s;
 }
@@ -25,7 +25,6 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  background-image: none;
   background-color: transparent;
   background-size: cover;
   border-radius: 100%;
@@ -36,11 +35,11 @@ body {
 }
 
 .track-name {
-  font-size: 3rem;
+  font-size: 1.2rem;
 }
 
 .track-artist {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .buttons {
@@ -88,7 +87,7 @@ body {
   appearance: none;
   width: 15px;
   height: 15px;
-  background: white;
+  background: black;
   cursor: pointer;
   border-radius: 50%;
 }

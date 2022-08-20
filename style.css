@@ -25,9 +25,10 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  background-image: url(images/ParabolikPoster.jpg);
+  background-image: none;
+  background-color: transparent;
   background-size: cover;
-  border-radius: 0%;
+  border-radius: 100%;
 }
 
 .now-playing {

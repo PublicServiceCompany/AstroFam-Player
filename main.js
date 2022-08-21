@@ -1,3 +1,26 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAYhrDQbLYmY5oeYF4aF74AUVFKvvOILbM",
+  authDomain: "urge-may2022.firebaseapp.com",
+  databaseURL: "https://urge-may2022-default-rtdb.firebaseio.com",
+  projectId: "urge-may2022",
+  storageBucket: "urge-may2022.appspot.com",
+  messagingSenderId: "278281172221",
+  appId: "1:278281172221:web:181b1c453916b2af167a94",
+  measurementId: "G-SV5XBZM3PK"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");

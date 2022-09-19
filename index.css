@@ -1,0 +1,186 @@
+h1, h2, h3, h4, h5{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    /* Smoothly transition the background color */
+    transition: background-color .5s;
+}
+
+/* Public Service Company name */
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 4.6em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.2em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+/* navigation links */
+h5 {
+    font-size: .8em;
+    margin-block-end: 4em;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+.headline-wrapper, .content-wrapper, .navigation-wrapper {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 80%;
+    align-items: grid;
+}
+
+.feed-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+/* styles for the javascript player */
+
+
+.player {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .track-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    background-size: cover;
+    border-radius: 100%;
+  }
+  
+  .now-playing {
+    font-size: 1rem;
+  }
+  
+  .track-name {
+    font-size: 1.2rem;
+  }
+  
+  .track-artist {
+    font-size: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .playpause-track, .prev-track, .next-track {
+    padding: 25px;
+    opacity: 0.8;
+  
+    /* Smoothly transition the opacity */
+    transition: opacity .2s;
+  }
+  
+  .playpause-track:hover, .prev-track:hover, .next-track:hover {
+    opacity: 1.0;
+  }
+  
+  .slider_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modify the appearance of the slider */
+  .seek_slider, .volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: black;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  /* Modify the appearance of the slider thumb */
+  .seek_slider::-webkit-slider-thumb, .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: black;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .seek_slider:hover, .volume_slider:hover {
+    opacity: 1.0;
+  }
+  
+  .seek_slider {
+    width: 60%;
+  }
+  
+  .volume_slider {
+    width: 30%;
+  }
+  
+  .current-time, .total-duration {
+    padding: 10px;
+  }
+  
+  i.fa-volume-down, i.fa-volume-up {
+    padding: 10px;
+  }
+  
+  i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
+    cursor: pointer;
+  }
+  
+  .navigation {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }

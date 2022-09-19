@@ -1,42 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AstroFam Records</title>
-  <!-- Load FontAwesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
-  <!-- Load the custom CSS style file -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Advertising, Marketing and Strategy for small businesses, independent creators, and global brands." />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta name="author" content="Public Service Company" />
+    <title>Public Service Company</title>
 </head>
-<body>
-  <!-- Player -->
-  <div class="player">
-    <div class="details">
-      <div class="now-playing">PLAYING x OF y</div>
-      <div class="track-art"></div>
-      <div class="track-name">Track Name</div>
-      <div class="track-artist">Track Artist</div>
-    </div>
-    <div class="buttons">
-      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
-      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
-      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
-    </div>
-    <div class="slider_container">
-      <div class="current-time">00:00</div>
-      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-      <div class="total-duration">00:00</div>
-    </div>
-    <div class="slider_container">
-      <i class="fa fa-volume-down"></i>
-      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-      <i class="fa fa-volume-up"></i>
-    </div>
-  </div>
 
-  <!-- Load the main script for the player -->
-  <script src="main.js"></script>
+<body>
+
+    <section id="main-header">
+        <div class="headline-wrapper" id="tippy-top">
+            <h1>Public Service Company</h1>
+            <div class="navigation-wrapper" id="navigation-wrapper">
+                <h5><a href="services.html">SERVICES</a> | 
+                    <a href="https://wa.me/12064951964?text=Hello from the other siiiiiiiide...">WhatsApp</a> | 
+                    <a href="mailto:publicserviceco@protonmail.com?&subject=Order Placement&body=Hi! I'm interested in your advertising services. Specifically...">Email</a> | 
+                    <a href="https://www.youtube.com/channel/UCkmGobSWktbbXxiYVXXAqSg">YouTube</a> | 
+                    <a href="radio.html">Radio</a>
+                </h5>
+            </div>
+        </div>
+        
+        <div class="content-wrapper" id="headline-wrapper">
+            <h4>Big Agency Campaigns for Small Business Budgets</h4>
+            
+            <img class="feed-image" src="img/Public Service Co Logo 1920x1080.png">
+        </div>
+        <div class="content-wrapper" id="intro-wrapper">
+                <p>Question 1/3:</p>
+                <h3>Does your brand have millions to spend on strategy, creative and production?</h3>
+                <p>Question 2/3:</p>
+                <h3>Have you retained a prestigious acronym as your Agency of Record?</h3>
+                <p>Question 3/3:</p>
+                <h3>Do you want a generic sales funnel template?</h3>
+                <p>If you answered <h4>no</h4> to any of these questions,</p>
+                <h3>Public Service might be right for your brand!</h3>    
+        </div>
+    </section>
+    
+    <section id="main-footer">
+        <div class="content-wrapper">
+                <div class="navigation-wrapper" id="navigation-wrapper">
+                    <h5><a href="#tippy-top">| TOP |</a></h5>
+                    <h5><a href="services.html">SERVICES</a> | 
+                    <a href="https://wa.me/12064951964?text=Hello from the other siiiiiiiide...">WhatsApp</a> | 
+                    <a href="mailto:publicserviceco@protonmail.com?&subject=Order Placement&body=Hi! I'm interested in your advertising services. Specifically...">Email</a> | 
+                    <a href="https://www.youtube.com/channel/UCkmGobSWktbbXxiYVXXAqSg">YouTube</a> | 
+                    <a href="radio.html">Radio</a>
+                    </h5>
+                </div>
+        </div>
+        
+    </section>
+    
 </body>
 </html>

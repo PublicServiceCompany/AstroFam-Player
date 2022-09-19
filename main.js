@@ -1,26 +1,3 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAYhrDQbLYmY5oeYF4aF74AUVFKvvOILbM",
-  authDomain: "urge-may2022.firebaseapp.com",
-  databaseURL: "https://urge-may2022-default-rtdb.firebaseio.com",
-  projectId: "urge-may2022",
-  storageBucket: "urge-may2022.appspot.com",
-  messagingSenderId: "278281172221",
-  appId: "1:278281172221:web:181b1c453916b2af167a94",
-  measurementId: "G-SV5XBZM3PK"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
@@ -47,53 +24,208 @@ let track_list = [
   {
     name: "Cliffs of Doom",
     artist: "Parabolik",
-    image: "images/ParabolikPoster.jpg",
+    image: "img/ParabolikPoster.jpg",
     path: "audio/Parabolik/Parabolik - Cliffs of Doom.mp3"
   },
   {
     name: "Invincible",
     artist: "Parabolik",
-    image: "images/ParabolikPoster.jpg",
+    image: "img/ParabolikPoster.jpg",
     path: "audio/Parabolik/Parabolik - Invincible.mp3"
   },
   {
     name: "Jaws of the Depths",
     artist: "Parabolik",
-    image: "images/ParabolikPoster.jpg",
+    image: "img/ParabolikPoster.jpg",
     path: "audio/Parabolik/Parabolik - Jaws of the Depths.mp3"
   },
   {
     name: "Portals of Uncertainty",
     artist: "Parabolik",
-    image: "images/ParabolikPoster.jpg",
+    image: "img/ParabolikPoster.jpg",
     path: "audio/Parabolik/Parabolik - Portals of Uncertainty.mp3"
   },
   {
     name: "I Believe In You",
-    artist: "GRD",
-    image: "images/CartoonDystopiaZenAna.jpg",
+    artist: "ZenAna",
+    image: "img/CartoonDystopiaZenAna.jpg",
     path: "audio/GRD/GRD - I Believe In You 2.mp3"
   },
   {
     name: "In The Beginning",
-    artist: "GRD",
-    image: "images/CartoonDystopiaZenAna.jpg",
+    artist: "ZenAna",
+    image: "img/CartoonDystopiaZenAna.jpg",
     path: "audio/GRD/GRD - In The Beginning.mp3"
   },
   {
     name: "Molten Yolk",
-    artist: "GRD",
-    image: "images/CartoonDystopiaZenAna.jpg",
+    artist: "ZenAna",
+    image: "img/CartoonDystopiaZenAna.jpg",
     path: "audio/GRD/GRD - Molten Yolk.mp3"
   },
   {
     name: "Portable and Affordable Accordions",
     artist: "GRD",
-    image: "images/CartoonDystopiaZenAna.jpg",
+    image: "img/CartoonDystopiaZenAna.jpg",
     path: "audio/GRD/GRD - Portable and Affordable Accordions.mp3"
   },
+  {
+    name: "Paul who is called Simon",
+    artist: "Bushfolk",
+    image: "img/BushfolkAlbum.jpg",
+    path: "audio/bushfolk/Paul who is called Simon, Hanson.m4a"
+  },
+  {
+    name: "Greenwood Hopeful",
+    artist: "Bushfolk",
+    image: "img/BushfolkAlbum.jpg",
+    path: "audio/bushfolk/Hollywood Hopeful (Loudon Wainright III).m4a"
+  },
+  {
+    name: "Marry Song",
+    artist: "Bushfolk (Band of Horses)",
+    image: "img/BushfolkAlbum.jpg",
+    path: "audio/bushfolk/Marry Song (Band of Horses).m4a"
+  },
+  {
+    name: "Tonight Will Be Fine",
+    artist: "Bushfolk (Leonard Cohen)",
+    image: "img/BushfolkAlbum.jpg",
+    path: "audio/bushfolk/Tonight Will Be Fine (Leonard Cohen).m4a"
+  },
+  {
+    name: "Remember The Time",
+    artist: "Xon Serpents",
+    image: "img/XunSerpents-interference.jpg",
+    path: "audio/Sun Serpents/Side Scrolling Adventure/01 Remember The Time.mp3"
+  },
+  {
+    name: "Got a Good Feeling",
+    artist: "Iki Kai",
+    image: "img/ikikai_albumcover.jpg",
+    path: "audio/iki-kai/THE REVENANT/GOT A GOOD FEELING .mp3"
+  },
+  {
+    name: "Hero Inside",
+    artist: "Iki Kai",
+    image: "img/ikikai_albumcover.jpg",
+    path: "audio/iki-kai/THE REVENANT/HERO INSIDE .mp3"
+  },
+  {
+    name: "Lifing the End",
+    artist: "Iki Kai",
+    image: "img/ikikai_albumcover.jpg",
+    path: "audio/iki-kai/THE REVENANT/LIFTING THE END.mp3"
+  },
+    {
+    name: "Moving Over",
+    artist: "Iki Kai",
+    image: "img/ikikai_albumcover.jpg",
+    path: "audio/iki-kai/THE REVENANT/MOVING OVER .mp3"
+  },
+  {
+    name: "Tight Me Up",
+    artist: "Iki Kai",
+    image: "img/ikikai_albumcover.jpg",
+    path: "audio/iki-kai/THE REVENANT/TIGHT ME UP .mp3"
+  },
+  {
+    name: "Demanifest",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Demanifest.mp3"
+  },
+  {
+    name: "Invincible",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Invincible.mp3"
+  },
+   {
+    name: "Mania",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Mania.mp3"
+  },
+  {
+    name: "Peaceful Mystic",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Peaceful Mystic.mp3"
+  },
+  {
+    name: "Snake",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Snake.mp3"
+  },
+  {
+    name: "SoBe",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/SoBe.mp3"
+  },
+  {
+    name: "Solo Mission",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Solo Mission.mp3"
+  },
+  {
+    name: "Stage I",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Stage I.mp3"
+  },
+  {
+    name: "The Shifted",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/The Shifted.mp3"
+  },
+  {
+    name: "Abyss",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - Abyss (Original Mix).mp3"
+  },
+  {
+    name: "DEEPression",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - DEEPression (Original Mix).mp3"
+  },
+  {
+    name: "Leticia",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - Leticia (Original Mix).mp3"
+  },
+  {
+    name: "Sharkcave",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - Sharkcave (Original Mix).mp3"
+  },
+  {
+    name: "Stardust",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - Stardust (Original Mix).mp3"
+  },
+  {
+    name: "Woah",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/VV - Woah (Original Mix).mp3"
+  },
+  {
+    name: "",
+    artist: "VVulf",
+    image: "img/VVLogo3color.jpeg",
+    path: "audio/VVulf/Whys.mp3"
+  },
 ];
-
 function random_bg_color() {
 
   // Get a number between 64 to 256 (for getting lighter colors)
